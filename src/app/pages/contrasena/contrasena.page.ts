@@ -12,7 +12,7 @@ export class ContrasenaPage {
   constructor(private alertController: AlertController) {}
 
   async resetPassword() {
-    if (this.email.endsWith('@duocuc.cl')) {
+    if (this.email.endsWith('@duocuc.cl') || this.email.endsWith('@profesorduocuc.cl')) {
       const alert = await this.alertController.create({
         header: 'Éxito',
         message: 'Correo electrónico enviado',

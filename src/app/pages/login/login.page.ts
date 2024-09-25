@@ -37,6 +37,6 @@ export class LoginPage {
   }
 
   goToResetPassword() {
-    this.navCtrl.navigateForward('/reset-password');
+    this.navCtrl.navigateForward('/contrasena');
   }
 }
